@@ -1,0 +1,137 @@
+.BorTit
+  border-left: 8px solid #339CE9
+  padding: 5px 0px 5px 20px
+  margin-top: 6px
+  font-size: 0.8em
+
+iframe
+  border-radius: 10px
+
+figcaption
+  margin-top: 4px
+
+.bloque-texto-b.color-acento-contenido:before 
+    background-color: #D6EBFB
+
+.cardBox
+  float: left;  
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  border: 0px solid white
+
+.cardBox:hover .card 
+  transform: rotateY( 180deg);
+  border: 0px solid white
+
+
+.card 
+  height: 250px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+  border: 0px solid white
+
+.card .front,
+.card .back 
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border: 0px solid white
+
+.card .back 
+  transform: rotateY( 180deg);
+  border: 0px solid white
+
+.cardBox .card 
+  -webkit-animation: giro 2.5s 1;
+  animation: giro 2.5s 1;
+  border: 0px solid white
+
+@-webkit-keyframes giro 
+  from 
+    transform: rotateY( 180deg);
+  to 
+    transform: rotateY( 0deg);
+
+@keyframes giro 
+  from 
+    transform: rotateY( 180deg)
+  to 
+    transform: rotateY( 0deg);
+
+@media screen and (max-width: 480px) 
+  .cardBox 
+    width: 94.5%;
+  
+  .card 
+    height: 260px;
+
+.img-infografica__item
+  width: 5.5%
+.img-infografica__item__dot:before, .img-infografica__item__dot:after
+  opacity: .3
+.img-infografica__item__dot.color-primario
+  &::before
+    background-color: $color-primario
+  &::after
+    background-color: $color-primario
+.img-infografica__item__dot.color-secundario
+  &::before
+    background-color: $color-secundario
+  &::after
+    background-color: $color-secundario
+.img-infografica__item__dot.color-acento-contenido
+  &::before
+    background-color: $color-acento-contenido
+  &::after
+    background-color: $color-acento-contenido
+.img-infografica__item__dot.color-acento-botones
+  &::before
+    background-color: $color-acento-botones
+  &::after
+    background-color: $color-acento-botones
+    
+.modal-a__content
+  padding: 0 10px!important
+  overflow: hidden !important
+.modal-a__close-btn
+  border-radius: 50px
+  background-color: $color-acento-botones
+  > i
+    color: white
+
+.colum-modal
+  font-size: 2em
+  > * 
+    font-weight: 700!important
+    color: white
+  &.color-primario
+    background-color: $color-primario
+  &.color-secundario
+    background-color: $color-secundario
+  &.color-acento-botones
+    background-color: $color-acento-botones
+  &.color-acento-contenido
+    background-color: $color-acento-contenido
+
+.fas.fa-circle.fa-xs
+  color: $color-primario
+
+.t1-border1
+  border-top-left-radius: 100px
+  border-bottom-left-radius: 100px
+  background-color:#BF3976
+.t1-border2
+  border-top-right-radius: 100px
+  border-bottom-right-radius: 100px
+  background-color:#D6EBFB
+  
+
+
+
+
