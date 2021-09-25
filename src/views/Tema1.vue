@@ -58,8 +58,28 @@
       h2 1.1  Reconocimiento del sistema
 
     p.mb-5 El programa fue creado específicamente como una solución al desarrollo automatizado de patrones y, aunque se le conoce en todo lo concerniente al vestuario, también comprende lo relacionado a los interiores del transporte, tapicería, marroquinería y la industria textil. A continuación, se presentan los módulos que componen Optitex             
-    SlyderB(:datos="datosSlyder")
+    SlyderB.mb-5(:datos="datosSlyder")
 
+    .row.justify-content-center.mb-5
+      .col-2.p-0
+        img(src='@/assets/curso/tema1/img27.svg') 
+      .col-8.d-flex.align-items-center(style="background-color:#D6EBFB;border-top-right-radius: 100px; border-bottom-right-radius: 100px")
+        p.mb-0 Además de todos los módulos anteriores el software proporciona un reporte de información de piezas en Excel para integrarlas a las con fichas técnicas.
+
+    .row.justify-content-center
+      .col-5.p-0
+        a.anexo.mb-4(:href="obtenerLink('/downloads/ATAJOS PDS 12.xlsx')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-xls.svg")
+          .anexo__texto
+            p <b>Anexo</b>. Mapa de atajos Optitex MARK12.
+      .col-5.p-0
+        a.anexo.mb-4(:href="obtenerLink('/downloads/TECLAS RAPIDAS PRINCIPALES PDS.xlsx')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-xls.svg")
+          .anexo__texto
+            p <b>Anexo</b>. Mapa de teclas rápidas
+        
     Separador
     #t_1_2.titulo-segundo
       h2 1.2  Interfaz gráfica y herramientas
