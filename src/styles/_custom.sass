@@ -23,9 +23,22 @@ figcaption
   transform: rotateY( 180deg);
   border: 0px solid white
 
+.cardBox:hover .card2 
+  transform: rotateY( 180deg);
+  border: 0px solid white
+
 
 .card 
   height: 250px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+  border: 0px solid white
+
+.card2
+  height: 150px;
   transform-style: preserve-3d;
   transition: transform 0.4s ease 0s;
   width: 100%;
@@ -43,11 +56,30 @@ figcaption
   width: 100%;
   border: 0px solid white
 
+.card2 .front,
+.card2 .back 
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border: 0px solid white
+
 .card .back 
   transform: rotateY( 180deg);
   border: 0px solid white
 
+.card2 .back 
+  transform: rotateY( 180deg);
+  border: 0px solid white
+
 .cardBox .card 
+  -webkit-animation: giro 2.5s 1;
+  animation: giro 2.5s 1;
+  border: 0px solid white
+
+.cardBox .card2
   -webkit-animation: giro 2.5s 1;
   animation: giro 2.5s 1;
   border: 0px solid white
@@ -69,6 +101,9 @@ figcaption
     width: 94.5%;
   
   .card 
+    height: 260px;
+
+  .card2 
     height: 260px;
 
 .img-infografica__item
@@ -131,6 +166,74 @@ figcaption
   border-bottom-right-radius: 100px
   background-color:#D6EBFB
   
+
+.cajon.color-secundario 
+    background-color: #F2D6E3 !important;
+
+
+.t4-div1
+  background-color: #D6EBFB;
+  border-top-left-radius: 10px
+  border-bottom-left-radius: 10px
+
+.t4-div2
+  background-color: #F2D6E3;
+  border-top-right-radius: 10px
+  border-bottom-right-radius: 10px
+
+.acordion__titulo > h3
+  color: #8F2B58 !important
+
+
+// variables
+$cancel: #C33764;
+$secondary: #F2994A;
+$standard: #E8E8E8;
+$submit: #159957;
+$white: #F1F2F2;
+$transition: all 0.25s ease-in-out;
+// mixin
+@mixin mybutton($color_1, $color_2, $color_3)   
+	transition: $transition;  
+	&:hover 
+		background-color: $color-primario;
+    				
+  &:active 
+		background-color: $color_1;
+		color: $color_2;
+		box-shadow: none;
+	
+	&:focus, &:active:focus 
+		background-color: $color_1;
+		color: $color_2;
+		outline: 0px solid white;
+	
+	&:visited 
+		background-color: $color_1;
+
+.btn2
+  border-radius: 20px  
+  background-color: #E8E8E8
+  color: $color-sistema-texto
+  border: 0px solid $white
+  @include mybutton($color-secundario, $white, #F2D6E3);
+
+.btn3
+  border-radius: 5px  
+  background-color: #E8E8E8
+  color: $color-sistema-texto
+  border: 0px solid $white
+  @include mybutton($color-acento-botones, $white, #F2D6E3);
+
+.tarjeta.color-custom1
+  background-color: white !important  
+  border-radius: 10px !important  
+  border: 2px solid #72B3F2
+
+.cajon.color-acento-contenido
+    background-color: #D6EBFB !important  
+
+
 
 
 

@@ -1,2 +1,1 @@
-module.exports =
-  'Diseño Asistido por Computador'
+module.exports = 'Diseño Asistido por Computador'
