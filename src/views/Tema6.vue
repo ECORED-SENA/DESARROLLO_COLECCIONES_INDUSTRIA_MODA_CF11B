@@ -50,7 +50,7 @@
     .row.justify-content-center.mb-5 
       .col-10 
         .cajon.color-secundario.ps-3.pe-5.py-3
-          p.mb-0.text-center La pieza que sirvió como construcción (el rectángulo) se puede borrar en el momento en que ya no se requiera más, para realizarlo se selecciona con la herramienta selección y con la combinación de teclas mayúsculas más suprimir (Shift + Sup) se elimina del todo, es importante tener en cuenta que esta acción es determinante y solamente se puede retroceder una vez, es decir con Ctrl + Z.
+          p.mb-0 La pieza que sirvió como construcción (el rectángulo) se puede borrar en el momento en que ya no se requiera más, para realizarlo se selecciona con la herramienta selección y con la combinación de teclas mayúsculas más suprimir (Shift + Sup) se elimina del todo, es importante tener en cuenta que esta acción es determinante y solamente se puede retroceder una vez, es decir con Ctrl + Z.
 
 
     .row.justify-content-start.mb-4
