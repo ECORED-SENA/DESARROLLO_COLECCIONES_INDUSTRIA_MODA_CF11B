@@ -105,131 +105,8 @@ export default {
         desarrolloContenidos: true,
         subMenu: [],
       },
-      {
-        nombreRuta: 'tema10',
-        icono: 'far fa-file-alt',
-        numero: '10',
-        titulo: 'Componentes',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
-          },
-        ],
-      },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -260,141 +137,102 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Planocartesiano.net. (s. f.). Ángulos positivos y negativos en el plano cartesiano. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://planocartesiano.net/angulos-positivos-y-negativos-en-el-plano-cartesiano',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Real Academia Española. (s. f.). Diccionario de la lengua española. RAE - ASALE. ',
+      link: 'https://dle.rae.es/ ',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Significados.com. (s. f.). Vector: qué es, características, tipos y ejemplos. ',
+      link: 'https://www.significados.com/vector/ ',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Adyacente',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        '1. adj. Situado en la inmediación o proximidad de algo.<br>Inmediación: 1. f. Cualidad de inmediato. 3. f. pl. Proximidad en torno a un lugar. (Real Academia Española, s. f.).',
     },
     {
-      termino: 'Suftware',
-      terminoHtml: '<em>Suftware</em>',
+      termino: 'Cadena de valor',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'modelo teórico que permite describir el desarrollo de las actividades de una organización empresarial generando valor al producto final, descrito y popularizado por Porter (1985) en su obra, Competitive Advantage: Creating and Sustaining Superior Performance.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Digitalización',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        '1. f. Acción y efecto de digitalizar.<br>Digitalizar: 1. tr. Registrar datos en forma digital. 2. tr. Convertir o codificar en números dígitos datos o informaciones de carácter continuo, como una imagen fotográfica, un documento o un libro (Real Academia Española, s. f.). ',
     },
     {
-      termino: 'Áectores',
-      terminoHtml: '<em>Áectores</em>',
+      termino: 'Drapeado',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        '1. m. Acción y efecto de drapear.<br>Drapear: 1. tr. Colocar o plegar los paños de la vestidura, y, más especialmente, darles la caída conveniente. U. t. c. prnl. (Real Academia Española, s. f.).',
     },
     {
-      termino: 'Moda',
+      termino: 'Hardware',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        '1. m. Inform. Equipo. (‖ conjunto de aparatos de una computadora) (Real Academia Española, s. f.).',
     },
     {
-      termino: 'DIseño',
+      termino: 'Ícono',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        '3. m. Signo que mantiene una relación de semejanza con el objeto representado; p. ej., las señales de cruce, badén o curva en las carreteras. 4. m. Inform. Símbolo gráfico que aparece en la pantalla de una computadora u otro dispositivo electrónico y que representa un programa, un sistema operativo, etc. (Real Academia Española, s. f.).',
     },
     {
-      termino: 'Diseña',
+      termino: 'Industria 4.0',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'industria 4.0 y su cuasisinónimo cuarta revolución industrial, son expresiones que denominan una hipotética cuarta mega etapa de la evolución técnico-económica de la humanidad, contando a partir de la Primera Revolución industrial. Esta cuarta etapa habría comenzado recientemente y su desarrollo estaría proyectado hacia la tercera década del siglo XXI. La inteligencia artificial es señalada como elemento central de esta transformación, íntimamente relacionada con la acumulación creciente de grandes cantidades de datos (Big data), el uso de algoritmos para procesarlos, y la interconexión masiva de sistemas y dispositivos digitales.<br>Esta cuarta etapa que aún no podemos caracterizar completamente, correspondería a una nueva manera de organizar los medios de producción. El objetivo que así pretendería alcanzarse es la puesta en marcha de un gran número de «fábricas inteligentes» (en inglés: smart factories) capaces de una mayor adaptabilidad a las necesidades y a los procesos de producción, así como a una asignación más eficiente de los recursos, abriendo así la vía a una nueva revolución industrial o revolución industrial 4.0.1',
     },
     {
-      termino: 'Tipología',
+      termino: 'Interfaz',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        '1. f. Conexión o frontera común entre dos aparatos o sistemas independientes.<br>2. f. Inform. Conexión, física o lógica, entre una computadora y el usuario, un dispositivo periférico o un enlace de comunicaciones. (Real Academia Española, s. f.)',
     },
     {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+      termino: 'Magnitud',
+      significado: '1. f. Tamaño de un cuerpo (Real Academia Española, s. f.).',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Periférico',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        '2. m. Inform. Aparato auxiliar e independiente conectado a la unidad central de una computadora u otro dispositivo electrónico (Real Academia Española, s. f.).',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Plóter',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        '1. m. Periférico de una computadora u otro dispositivo electrónico que dibuja o representa diagramas y gráficos (Real Academia Española, s. f.).',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Software',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        '1. m. Inform. Conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora (Real Academia Española, s. f.).',
+    },
+    {
+      termino: 'Vector',
+      significado:
+        'en física, es un segmento de recta en el espacio que parte de un punto hacia otro, es decir, que tiene dirección y sentido. Los vectores en física tienen por función expresar las llamadas magnitudes vectoriales. El término vector proviene del latín vector, vectores, cuyo significado es ‘el que conduce’, o ‘el que transporta’. Los vectores se representan gráficamente con una flecha. Asimismo, cuando deben ser expresados en una fórmula, se representan con una letra coronada por una flecha (Significados, s. f.).',
+    },
+    {
+      termino: 'Zoom- Zum',
+      significado:
+        '2. m. Efecto de acercamiento o alejamiento de la imagen obtenido con el zum (Real Academia Española, s. f.).',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+      texto: 'Lisandro L. (2020). Cómo aprender Optitex de forma fácil.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=v0kaYW7Xm4s',
     },
     {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      texto: 'Sublimoldes. (2019). Curso de Optitex.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=IaajCr-DdwA',
     },
   ],
   creditos: {
