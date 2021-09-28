@@ -238,7 +238,105 @@ $transition: all 0.25s ease-in-out;
   border-right: 2px solid #C5618E 
 
 
+.ClasePripiaBtn
+  width: 100%
+  background-color: transparent !important
+  padding: 0 !important
+  padding-bottom: 5px !important
 
 
 
+.t8-titulo
+  color: #BF3976 !important
 
+.tabs-d
+  margin-bottom: 15px
+
+.tabs-d__header
+  padding: 10px 10%
+  position: relative
+  &::before
+    content: ""
+    display: block
+    position: absolute;
+    top: 10%
+    bottom: 10%
+    left: 6%
+    right: 6%
+    background-color: $color-primario
+    border-radius: 15px;
+@media only screen and (min-width: 576px)
+  .tabs-d__header
+    &::before
+      top: 20%
+      bottom: 20%
+      left: 6%
+      right: 6%
+      border-radius: 15px;
+@media only screen and (min-width: 1200px)
+  .tabs-d__header
+    &::before
+      top: 20%
+      bottom: 20%
+      left: 6%
+      right: 6%
+      border-radius: 50em;
+
+
+.tabs-d__tab
+  position: relative
+  cursor: pointer
+  .number
+    position: absolute
+    top: 10px
+    left: 12px
+    color: $color-acento-botones
+    max-height: 60px
+    width: auto
+
+  .tabs-d__pre-header
+    border-radius: 1em
+    background: rgb(212,212,212)
+    background: linear-gradient(20deg, rgba(212,212,212,1) 0%, rgba(255,255,255,1) 100%)
+    padding: 7px
+    .tabs-d__container-header
+      &:hover
+        font-weight: 800
+        padding: 13% 20%
+      &.active
+        font-weight: 800
+        padding: 13% 20%
+      transition: all 0.3s
+      background-color: white
+      border-radius: 1em
+      text-align: center
+      padding: 12% 19%
+      color: #686868
+      font-weight: 600
+      > img
+        max-height: 60px
+        margin-top: 20px
+        margin-bottom: 10px
+  .tabs-d__container-active
+    margin: 0 15px
+    margin-top: 8px
+    margin-bottom: 8px
+    height: 7px
+    background-color: $color-acento-botones
+
+@media only screen and (max-width: 575px)
+  .tabs-d__tab
+    .tabs-d__pre-header
+      margin-bottom: 10px
+
+.col-auto.arrow
+  position: relative
+@media only screen and (max-width: 1199px)
+  .col-auto.arrow
+    display: none!important
+
+
+.t9-div1
+  background-color:#D6EBFB !important
+  border-top-right-radius: 70px 
+  border-bottom-right-radius: 70px 
