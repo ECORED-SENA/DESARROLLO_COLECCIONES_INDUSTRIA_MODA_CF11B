@@ -13,7 +13,7 @@
               p.mb-0 <br><br>
           .row.justify-content-end.mb-5(style="background-color:#D6EBFB")
             .col-9
-              p.mb-0.py-4 A continuación, se explicará la forma en que se presentan en pantalla las diferentes utilidades del software en lo referente a la interfaz del sistema y la interpretación de la información representada en el plano cartesiano y la forma en que se representan y transforman los patrones elaborados en el software.
+              p.mb-0.py-4 A continuación, se explicará la forma en que se presentan en pantalla las diferentes utilidades del <i>software</i> en lo referente a la interfaz del sistema y la interpretación de la información representada en el plano cartesiano y la forma en que se representan y transforman los patrones elaborados en el <i>software</i>.
           div(style="width:100%; position:absolute; top:-25px")
             .row.justify-content-start
               .col-3                
@@ -26,7 +26,7 @@
             img(src='@/assets/curso/tema4/img03.svg') 
           .col-11.d-flex.align-items-center
             h2.mb-0(style="color:#8F2B58") Plano cartesiano
-        p.mb-5 Optitex es un software vectorial, por lo tanto, sus elementos se ubican en un espacio conocido como plano cartesiano o coordenadas cartesianas, es decir, en dos dimensiones o ejes: el horizontal denominado “X” y el vertical denominado “Y”. El eje “X” tiene dirección de izquierda a derecha, es decir que incrementa en este sentido, o sea hacia la derecha es positivo y a la izquierda es negativo, mientras que “Y” va de abajo hacia arriba, por lo cual, arriba es positivo y abajo negativo. A la ubicación en el espacio con respecto a los ejes X y Y se le denomina coordenada e indica la posición del punto o el elemento. Esta información es fundamental para la construcción de las figuras y el movimiento de los puntos en los sistemas vectoriales. 
+        p.mb-5 Optitex es un <i>software</i> vectorial, por lo tanto, sus elementos se ubican en un espacio conocido como plano cartesiano o coordenadas cartesianas, es decir, en dos dimensiones o ejes: el horizontal denominado “X” y el vertical denominado “Y”. El eje “X” tiene dirección de izquierda a derecha, es decir que incrementa en este sentido, o sea hacia la derecha es positivo y a la izquierda es negativo, mientras que “Y” va de abajo hacia arriba, por lo cual, arriba es positivo y abajo negativo. A la ubicación en el espacio con respecto a los ejes X y Y se le denomina coordenada e indica la posición del punto o el elemento. Esta información es fundamental para la construcción de las figuras y el movimiento de los puntos en los sistemas vectoriales. 
         .row.justify-content-center.mb-4
           .col-1
             img(src='@/assets/curso/tema4/img04.svg') 
@@ -36,15 +36,15 @@
         p.mb-0 Según el giro que se presente en la recta se determina el signo que tiene el ángulo a trabajar, es decir que el sentido del giro permite identificar los ángulos positivos o negativos (Planocartesiano.net, s. f.).       
       .col-5.pt-5
         div.mb-2.BorTit
-          p.mb-0 <b>Figura 36</b>
+          p.mb-0 <b>Figura 41</b>
           p.mb-0 Plano cartesiano.
         figure
           img(src='@/assets/curso/tema4/img02.svg')  
 
     div.mb-5
       div.mb-2.BorTit
-        p.mb-0 <b>Figura 37</b>
-        p.mb-0 Movimiento positivo y negativo.
+        p.mb-0 <b>Figura 42</b>
+        p.mb-0 Ángulos positivo y negativo.
       
       .row.justify-content-center
         .col-6.d-flex.t4-div1.py-5
@@ -82,7 +82,7 @@
     .row.justify-content-center.mb-5
       .col-8
         div.mb-2.BorTit
-          p.mb-0 <b>Figura 38</b>
+          p.mb-0 <b>Figura 43</b>
           p.mb-0 Sentido horario.
         figure.mb-4
           img(src='@/assets/curso/tema4/img07.png')
@@ -90,25 +90,27 @@
         div(style="background-color:#F2D6E3").p-4
           p.mb-0 A continuación, se observa el patrón de un delantero de blusa y el sentido en que se trabajará en el sistema.
 
-    .row.justify-content-center.mb-5
-      .col-10
-        div.mb-2.BorTit
-          p.mb-0 <b>Figura 39</b>
-          p.mb-0 Movimiento de puntos sentido horario Optitex.
+    div.imagen-fondo(:style="{'background-image': `url(${require('@/assets/curso/tema4/img33.svg')})`}")
 
-        figure.mb-4
-          img(src='@/assets/curso/tema4/img08.png')
-        p.mb-0 Es así como al agregar un punto, teniendo en cuenta el sentido horario, el punto de referencia siguiente será el que continúe al avanzar en el sentido de las manecillas y el anterior será el que se deja atrás en el movimiento. 
+      .row.justify-content-center.mb-5
+        .col-10
+          div.mb-2.BorTit
+            p.mb-0 <b>Figura 44</b>
+            p.mb-0 Movimiento de puntos sentido horario Optitex.
 
-    .row.justify-content-center.mb-5
-      .col-10
-        div.mb-2.BorTit
-          p.mb-0 <b>Figura 40</b>
-          p.mb-0 Puntos anterior y siguiente.
+          figure.mb-4
+            img(src='@/assets/curso/tema4/img08.png')
+          p.mb-0 Es así como al agregar un punto, teniendo en cuenta el sentido horario, el punto de referencia siguiente será el que continúe al avanzar en el sentido de las manecillas y el anterior será el que se deja atrás en el movimiento. 
 
-        figure.mb-4
-          img(src='@/assets/curso/tema4/img09.png')
+      .row.justify-content-center.mb-5
+        .col-10
+          div.mb-2.BorTit
+            p.mb-0 <b>Figura 45</b>
+            p.mb-0 Puntos anterior y siguiente.
 
+          figure.mb-4
+            img(src='@/assets/curso/tema4/img09.png')
+      
     .row.justify-content-start.mb-4
       .col-6
         .row.justify-content-start
@@ -137,14 +139,14 @@
         .row.justify-content-center
           .col-10 
             div.mb-2.BorTit
-              p.mb-0 <b>Figura 41</b>
+              p.mb-0 <b>Figura 46</b>
               p.mb-0 Herramienta mover punto - paso 1.
             figure
               img(src='@/assets/curso/tema4/img11.png')  
         .row.justify-content-center
           .col-10 
             div.mb-2.BorTit
-              p.mb-0 <b>Figura 42</b>
+              p.mb-0 <b>Figura 47</b>
               p.mb-0 Herramienta mover punto - paso 2.
             figure
               img(src='@/assets/curso/tema4/img12.png')  
@@ -163,28 +165,28 @@
             .row.justify-content-center
               .col-12
                 div.mb-2.BorTit
-                  p.mb-0 <b>Figura 43</b>
+                  p.mb-0 <b>Figura 48</b>
                   p.mb-0 Movimiento de punto - paso 1.
                 figure
                   img(src='@/assets/curso/tema4/img14.png')  
             .row.justify-content-center
               .col-12
                 div.mb-2.BorTit
-                  p.mb-0 <b>Figura 44</b>
+                  p.mb-0 <b>Figura 49</b>
                   p.mb-0 Movimiento de punto - paso 2.
                 figure
                   img(src='@/assets/curso/tema4/img15.png')  
             .row.justify-content-center
               .col-12
                 div.mb-2.BorTit
-                  p.mb-0 <b>Figura 45</b>
+                  p.mb-0 <b>Figura 50</b>
                   p.mb-0 Movimiento de punto - paso 3.
                 figure
                   img(src='@/assets/curso/tema4/img16.png') 
             .row.justify-content-center
               .col-12
                 div.mb-2.BorTit
-                  p.mb-0 <b>Figura 46</b>
+                  p.mb-0 <b>Figura 51</b>
                   p.mb-0 Movimiento de punto - paso 4.
                 figure
                   img(src='@/assets/curso/tema4/img17.png') 
@@ -201,106 +203,106 @@
         .col-10
           AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta")            
             .row(titulo="Movimiento paralelo") 
-              p.mb-5 Se usa para mover todos los puntos de un segmento de manera paralela, se encuentra en la Caja de Herramientas / Movimiento / Movimiento paralelo (o mover segmentos fijos en versiones superiores) o la combinación de Ctrl + Shift + M; se hace clic en el primer punto, clic en el último punto (recordar el sentido horario), luego clic en un punto del segmento que servirá como referencia del movimiento, clic hacia donde se va a mover el tramo y se abre un cuadro de diálogo en el que se especifica, al igual que con el movimiento de punto, las nuevas coordenadas del movimiento. 
+              p.mb-5 Se usa para mover todos los puntos de un segmento de manera paralela, se encuentra en la Caja de Herramientas / Movimiento / Movimiento paralelo (o mover segmentos fijos en versiones superiores) o la combinación de <i>Ctrl</i> + <i>Shift</i> + M; se hace clic en el primer punto, clic en el último punto (recordar el sentido horario), luego clic en un punto del segmento que servirá como referencia del movimiento, clic hacia donde se va a mover el tramo y se abre un cuadro de diálogo en el que se especifica, al igual que con el movimiento de punto, las nuevas coordenadas del movimiento. 
               SlyderE(indicadores="derecha")                
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 47</b>
+                      p.mb-0 <b>Figura 52</b>
                       p.mb-0 Pasos herramienta movimiento paralelo - paso 1.
                     figure
                       img(src='@/assets/curso/tema4/img18.png')  
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 48</b>
+                      p.mb-0 <b>Figura 53</b>
                       p.mb-0 Pasos herramienta movimiento paralelo - paso 2.
                     figure
                       img(src='@/assets/curso/tema4/img19.png')  
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 49</b>
+                      p.mb-0 <b>Figura 54</b>
                       p.mb-0 Pasos herramienta movimiento paralelo - paso 3.
                     figure
                       img(src='@/assets/curso/tema4/img20.png')  
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 50</b>
+                      p.mb-0 <b>Figura 55</b>
                       p.mb-0 Pasos herramienta movimiento paralelo - paso 4.
                     figure
                       img(src='@/assets/curso/tema4/img21.png')  
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 51</b>
+                      p.mb-0 <b>Figura 56</b>
                       p.mb-0 Pasos herramienta movimiento paralelo - paso 5.
                     figure
                       img(src='@/assets/curso/tema4/img22.png') 
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 52</b>
+                      p.mb-0 <b>Figura 57</b>
                       p.mb-0 Pasos herramienta movimiento paralelo - paso 6.
                     figure
                       img(src='@/assets/curso/tema4/img23.png')  
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 53</b>
+                      p.mb-0 <b>Figura 58</b>
                       p.mb-0 Pasos herramienta movimiento paralelo - paso 7.
                     figure
                       img(src='@/assets/curso/tema4/img24.png')  
             .row(titulo="Movimiento proporcional")    
-              p.mb-5 Es un movimiento múltiple que se realiza a partir del movimiento de un solo punto de referencia y en el cual los demás puntos (preseleccionados) se mueven de manera proporcional. Se encuentra en la Caja de Herramientas / Movimiento / Movimiento proporcionalmente o el atajo de teclado Ctrl + M. Se procede de igual manera que en la anterior, se hace clic en el primer punto a mover, clic en el último punto (sentido horario), clic en el punto de referencia del movimiento y luego clic en el lugar al que se va a mover, se abre el cuadro de diálogo en el que se dan las coordenadas de movimiento (figuras 43 a 49).
+              p.mb-5 Es un movimiento múltiple que se realiza a partir del movimiento de un solo punto de referencia y en el cual los demás puntos (preseleccionados) se mueven de manera proporcional. Se encuentra en la Caja de Herramientas / Movimiento / Movimiento proporcionalmente o el atajo de teclado <i>Ctrl</i> + M. Se procede de igual manera que en la anterior, se hace clic en el primer punto a mover, clic en el último punto (sentido horario), clic en el punto de referencia del movimiento y luego clic en el lugar al que se va a mover, se abre el cuadro de diálogo en el que se dan las coordenadas de movimiento (figuras 59 a 65).
               SlyderE(indicadores="derecha")                
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 54</b>
+                      p.mb-0 <b>Figura 59</b>
                       p.mb-0 Pasos herramienta movimiento proporcional - paso 1.
                     figure
                       img(src='@/assets/curso/tema4/img25.png') 
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 55</b>
+                      p.mb-0 <b>Figura 60</b>
                       p.mb-0 Pasos herramienta movimiento proporcional - paso 2.
                     figure
                       img(src='@/assets/curso/tema4/img26.png') 
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 56</b>
+                      p.mb-0 <b>Figura 61</b>
                       p.mb-0 Pasos herramienta movimiento proporcional - paso 3.
                     figure
                       img(src='@/assets/curso/tema4/img27.png') 
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 57</b>
+                      p.mb-0 <b>Figura 62</b>
                       p.mb-0 Pasos herramienta movimiento proporcional - paso 4.
                     figure
                       img(src='@/assets/curso/tema4/img28.png') 
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 58</b>
+                      p.mb-0 <b>Figura 63</b>
                       p.mb-0 Pasos herramienta movimiento proporcional - paso 5.
                     figure
                       img(src='@/assets/curso/tema4/img29.png') 
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 59</b>
+                      p.mb-0 <b>Figura 64</b>
                       p.mb-0 Pasos herramienta movimiento proporcional - paso 6.
                     figure
                       img(src='@/assets/curso/tema4/img30.png') 
                 .row.justify-content-center
                   .col-12
                     div.mb-2.BorTit
-                      p.mb-0 <b>Figura 60</b>
+                      p.mb-0 <b>Figura 65</b>
                       p.mb-0 Pasos herramienta movimiento proporcional - paso 7.
                     figure
                       img(src='@/assets/curso/tema4/img31.png') 
@@ -314,7 +316,7 @@
             //- estas clases tambien tienen un modificador --borde
             .tarjeta.color-acento-contenido(style="background-color:#D6EBFB").px-4
               br
-              p.text-center El software cuenta con más opciones de movimiento, en este componente se presentan las más empleadas y se recomienda a los aprendices practicarlas y explorar las otras opciones.
+              p.text-center El <i>software</i> cuenta con más opciones de movimiento, en este componente se presentan las más empleadas y se recomienda a los aprendices practicarlas y explorar las otras opciones.
 </template>
 
 <script>

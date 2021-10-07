@@ -11,7 +11,7 @@
         .col-10 
           p.mb-5 La industrialización de las piezas corresponde a la marcada de las propiedades de cada una de ellas y los puntos de marcada internos (tratados anteriormente), lo cual en el sistema se hace por la opción propiedades de pieza, que se activa haciendo doble clic sobre uno de los moldes. 
           div.mb-2.BorTit
-            p.mb-0 <b>Figura 131</b>
+            p.mb-0 <b>Figura 136</b>
             p.mb-0 Propiedades de la pieza.
           figure
             img(src='@/assets/curso/tema8/img01.png') 
@@ -52,7 +52,7 @@
     .row.justify-content-center.mb-5
         .col-10        
           div.mb-2.BorTit
-            p.mb-0 <b>Figura 132</b>
+            p.mb-0 <b>Figura 137</b>
             p.mb-0 Propiedades principales de la pieza.
           figure
             img(src='@/assets/curso/tema8/img03.png') 
@@ -64,7 +64,7 @@
     .row.justify-content-center.mb-5
         .col-10        
           div.mb-2.BorTit
-            p.mb-0 <b>Figura 133</b>
+            p.mb-0 <b>Figura 138</b>
             p.mb-0 Texto de descripción.
           figure
             img(src='@/assets/curso/tema8/img04.png') 
@@ -122,18 +122,18 @@
           
           #collapse05.collapse(:class="{show: hash == 5}" data-bs-parent='#MapaGroup01')
             h4.t8-titulo  Encogimiento
-            p.mb-5 Se puede manejar el encogimiento desde estas opciones o desde escalizar (cómo se vio en el tema) (figura 124).
+            p.mb-5 Se puede manejar el encogimiento desde estas opciones o desde escalizar (cómo se vio en el tema) (figura 139).
             div.mb-2.BorTit
-              p.mb-0 <b>Figura 134</b>
+              p.mb-0 <b>Figura 139</b>
               p.mb-0 Atributos de trazo.
             figure
               img(src='@/assets/curso/tema8/img15.png') 
 
           #collapse06.collapse(:class="{show: hash == 6}" data-bs-parent='#MapaGroup01')
             h4.t8-titulo Atributos del espaciado
-            p.mb-5 Cuando se cortan algunas telas es recomendable dejar una margen de corte o un espacio entre piezas trazadas, en esta opción se asigna dicho espacio (figura 125).
+            p.mb-5 Cuando se cortan algunas telas es recomendable dejar una margen de corte o un espacio entre piezas trazadas, en esta opción se asigna dicho espacio (figura 140).
             div.mb-2.BorTit
-              p.mb-0 <b>Figura 135</b>
+              p.mb-0 <b>Figura 140</b>
               p.mb-0  Atributos de espaciado.
             figure
               img(src='@/assets/curso/tema8/img16.png') 
@@ -146,7 +146,7 @@
             h4.t8-titulo Reporte
             p.mb-5 Sirve para guardar o imprimir el reporte de la información de la talla. 
             div.mb-2.BorTit
-              p.mb-0 <b>Figura 136</b>
+              p.mb-0 <b>Figura 141</b>
               p.mb-0  Información de tallas y reporte.
             figure.mb-5
               img(src='@/assets/curso/tema8/img17.png') 

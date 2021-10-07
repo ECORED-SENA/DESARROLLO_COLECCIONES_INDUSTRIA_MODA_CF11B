@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Diseño Asistido por Computador',
+    componenteFormativo: 'CAD: Diseño Asistido por Computador',
     descripcionCurso:
-      'Se abordan las herramientas básicas y su manejo para la realización de patrones básicos en formato digital, por medio del software Optitex.',
+      'Se abordan las herramientas básicas y su manejo para la realización de patrones básicos en formato digital, por medio del <i>software</i> Optitex.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Hardware y software',
+        titulo: '<i>Hardware</i> y <i>software</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -174,7 +174,7 @@ export default {
         '1. m. Acción y efecto de drapear.<br>Drapear: 1. tr. Colocar o plegar los paños de la vestidura, y, más especialmente, darles la caída conveniente. U. t. c. prnl. (Real Academia Española, s. f.).',
     },
     {
-      termino: 'Hardware',
+      termino: '<i>Hardware</i>',
       significado:
         '1. m. Inform. Equipo. (‖ conjunto de aparatos de una computadora) (Real Academia Española, s. f.).',
     },
@@ -208,7 +208,7 @@ export default {
         '1. m. Periférico de una computadora u otro dispositivo electrónico que dibuja o representa diagramas y gráficos (Real Academia Española, s. f.).',
     },
     {
-      termino: 'Software',
+      termino: '<i>Software</i>',
       significado:
         '1. m. Inform. Conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora (Real Academia Española, s. f.).',
     },
@@ -248,44 +248,73 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Marisol Osorio',
+        cargo: 'Líder Sennova',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
+      },
+      {
+        nombre: 'María Luisa Yepes',
+        cargo: 'Instructora',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
+      },
+      {
+        nombre: 'Fabio Andrés Gaviria Londoño',
+        cargo: 'Instructor',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
+      },
+      {
+        nombre: 'Liliana Victoria Morales Gualdrón',
+        cargo: 'Diseñadora Instruccional',
+        centro:
+          '.Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluación instruccional ',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        cargo: 'Responsable equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios  - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Oscar Ivan Uribe Ortiz ',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Edgar Mauricio Cortés García',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [

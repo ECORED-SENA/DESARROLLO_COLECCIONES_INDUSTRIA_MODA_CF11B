@@ -1,0 +1,17 @@
+Al lider
+H10 - Por favor proporcionar las imagenes con el zoom aplicado
+
+Al diseñador
+H11 - La revisora pide el uso del icono de recordatorio que se señala en el hallazgo y que esta presente en el guion
+H13 - La revisora solicita imagen sin espacio a izquierda y derecha
+H27 - 
+H28 -
+H32 - La revisora pide el uso del icono de recordatorio que se señala en el hallazgo y que esta presente en el guion
+H34 - La revisora pide el uso del icono de recordatorio que se señala en el hallazgo y que esta presente en el guion
+
+
+Al revisor
+H12 - No se ha encontrado defecto. Por favor describirlo
+
+
+
