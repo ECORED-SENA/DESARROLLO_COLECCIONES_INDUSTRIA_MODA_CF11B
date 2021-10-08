@@ -20,23 +20,21 @@
          
         .row.justify-content-center.mb-5
           .col-lg-6.d-flex   
-            .cardBox
-              .card
-                .front
-                  figure
-                    img(src='@/assets/curso/tema1/img02.svg') 
-                .back.p-4(style="background-color:#D6EBFB")
+            .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+              .indicador--hover(v-if="indicadorTarjetaFlip")
+              .tarjeta-flip__contenedor
+                .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img02.svg')})`}")
+                .tarjeta-flip__contenido.p-4.p-xl-5                  
                   p Se conoce como <i>Hardware</i> a el conjunto de componentes físicos de los que está hecho el equipo; son las partes que puedes ver y tocar de los dispositivos. Para el caso de Optitex, aparte de los dispositivos comunes del computador, este está acompañado por otros como Tablero digitalizador, <i>plotter</i> de trazo, mesa de extendido y mesa de corte.
-                  
+           
           .col-lg-6.d-flex 
-            .cardBox
-              .card
-                .front
-                  figure
-                    img(src='@/assets/curso/tema1/img03.svg') 
-                .back.p-4(style="background-color:#D6EBFB")
+            .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+              .indicador--hover(v-if="indicadorTarjetaFlip")
+              .tarjeta-flip__contenedor
+                .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img03.svg')})`}")
+                .tarjeta-flip__contenido.p-4.p-xl-5                  
                   p El <i>software</i> es el conjunto de programas o aplicaciones, instrucciones y reglas informáticas que hacen posible el funcionamiento de los equipos en este caso el <i>Software</i> Optitex requiere de un dispositivo USB (<i>Hardware</i>) al que se le conoce como “llave”, la cual hace posible la ejecución de las tareas específicas del programa, al igual que el funcionamiento los dispositivos del <i>Hardware</i>.
-                         
+                    
         div(style="position:relative")
           .row.justify-content-star.mb-4
             .col-9

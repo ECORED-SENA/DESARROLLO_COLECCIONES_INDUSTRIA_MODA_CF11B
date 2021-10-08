@@ -30,7 +30,7 @@
           figure.mb-5
             img(src='@/assets/curso/tema7/img03.png')
     
-
+    
     .row.justify-content-center
       .col-10
         .row.justify-content-center.mb-5
@@ -88,27 +88,30 @@
             img(src='@/assets/curso/tema1/img27.svg') 
           .col-10.d-flex.align-items-center(style="background-color:#D6EBFB;border-top-right-radius: 100px; border-bottom-right-radius: 100px")
             p.mb-0 Nota: es importante recordar que el escalado tiene como referencia los ejes X y Y del plano cartesiano, en el que X es positivo hacia la derecha y negativo a la izquierda, y Y es positivo hacia arriba y negativo hacia abajo, como se muestra en la figura 92.
-
-        .row.justify-content-center.mb-5
-          .col-6
-            p.mb-4 Teniendo claras las reglas de escalado correspondientes a la prenda de vestir, al mercado y a las condiciones técnicas de la empresa, se procede a la aplicación de estas en los diferentes puntos de la prenda, proceso que en el sistema optimiza el tiempo debido a su automatización. 
-            p.mb-0 Para aplicar el escalado primero se selecciona el punto (recordar que debe ser escalado), se abre la ventana, la cual se encuentra en el menú Ver / Tabla de escalado o por medio de la tecla “2” (sobre la Q y la W), la cual se abre con los valores en blanco (figura 110).
-          .col-4.px-4
-            div.mb-2.BorTit
-              p.mb-0 <b>Figura 109</b>
-              p.mb-0 Plano cartesiano.
-            figure
-              img(src='@/assets/curso/tema7/img10.svg') 
-
-        .row.justify-content-center.mb-5
-            .col-12
+    
+    div.imagen-fondo(:style="{'background-image': `url(${require('@/assets/curso/tema7/img39.svg')})`}")
+      .row.justify-content-center
+        .col-10
+          .row.justify-content-center.mb-5
+            .col-6
+              p.mb-4 Teniendo claras las reglas de escalado correspondientes a la prenda de vestir, al mercado y a las condiciones técnicas de la empresa, se procede a la aplicación de estas en los diferentes puntos de la prenda, proceso que en el sistema optimiza el tiempo debido a su automatización. 
+              p.mb-0 Para aplicar el escalado primero se selecciona el punto (recordar que debe ser escalado), se abre la ventana, la cual se encuentra en el menú Ver / Tabla de escalado o por medio de la tecla “2” (sobre la Q y la W), la cual se abre con los valores en blanco (figura 110).
+            .col-4.px-4
               div.mb-2.BorTit
-                p.mb-0 <b>Figura 110</b>
-                p.mb-0 Tabla de escalado.
+                p.mb-0 <b>Figura 109</b>
+                p.mb-0 Plano cartesiano.
               figure
-                img(src='@/assets/curso/tema7/img11.png') 
+                img(src='@/assets/curso/tema7/img10.svg') 
 
-        p.mb-5 En este punto se hace imperante entender hacia qué lado decrecen o crecen las tallas; para ingresar los valores en la tabla de escalado (positivos o negativos) se deben ingresar los valores de cada punto en cada una de las dimensiones (dx y dy) para cada talla, si al ingresar los valores no se ve el escalado se debe activar con F4 (activar / desactivar escalado). 
+          .row.justify-content-center.mb-5
+              .col-12
+                div.mb-2.BorTit
+                  p.mb-0 <b>Figura 110</b>
+                  p.mb-0 Tabla de escalado.
+                figure
+                  img(src='@/assets/curso/tema7/img11.png') 
+
+          p.mb-5 En este punto se hace imperante entender hacia qué lado decrecen o crecen las tallas; para ingresar los valores en la tabla de escalado (positivos o negativos) se deben ingresar los valores de cada punto en cada una de las dimensiones (dx y dy) para cada talla, si al ingresar los valores no se ve el escalado se debe activar con F4 (activar / desactivar escalado). 
 
     SlyderA.mb-5  
       .row.justify-content-center
@@ -193,64 +196,65 @@
       .col-8.px-5.py-3(style="background-color: #D6EBFB")
         p.mb-0 En las figuras 103 a 105 se observa el paso a paso para voltear el escalado de las dos dimensiones.
 
-    SlyderA.mb-5  
-      .row.justify-content-center
-        .col-10 
-          div.mb-2.BorTit
-            p.mb-0 <b>Figura 119</b>
-            p.mb-0 Voltear escalado ambas dimensiones – paso 1.
-          figure
-            img(src='@/assets/curso/tema7/img20.png') 
-      .row.justify-content-center
-        .col-10 
-          div.mb-2.BorTit
-            p.mb-0 <b>Figura 120</b>
-            p.mb-0 Voltear escalado ambas dimensiones – paso 2.
-          figure
-            img(src='@/assets/curso/tema7/img21.png') 
-      .row.justify-content-center
-        .col-10 
-          div.mb-2.BorTit
-            p.mb-0 <b>Figura 121</b>
-            p.mb-0 Voltear escalado ambas dimensiones – paso 3.
-          figure
-            img(src='@/assets/curso/tema7/img22.png') 
+    div.imagen-fondo(:style="{'background-image': `url(${require('@/assets/curso/tema7/img40.svg')})`}")
+      SlyderA.mb-5  
+        .row.justify-content-center
+          .col-10 
+            div.mb-2.BorTit
+              p.mb-0 <b>Figura 119</b>
+              p.mb-0 Voltear escalado ambas dimensiones – paso 1.
+            figure
+              img(src='@/assets/curso/tema7/img20.png') 
+        .row.justify-content-center
+          .col-10 
+            div.mb-2.BorTit
+              p.mb-0 <b>Figura 120</b>
+              p.mb-0 Voltear escalado ambas dimensiones – paso 2.
+            figure
+              img(src='@/assets/curso/tema7/img21.png') 
+        .row.justify-content-center
+          .col-10 
+            div.mb-2.BorTit
+              p.mb-0 <b>Figura 121</b>
+              p.mb-0 Voltear escalado ambas dimensiones – paso 3.
+            figure
+              img(src='@/assets/curso/tema7/img22.png') 
 
 
-    .row.justify-content-center.mb-5
-      .col-10 
-        p.mb-0 Para una mayor optimización del tiempo, existe la herramienta escalado múltiple, con la que se ingresan los mismos valores en todas las tallas, se entra en la barra de botones del escalado, una vez seleccionada se hace clic sobre el punto a escalar, se abre un cuadro de diálogo, en el que se ingresa el valor de X y el valor de Y, al dar clic en aplicar se visualiza el escalado del punto. 
+      .row.justify-content-center.mb-5
+        .col-10 
+          p.mb-0 Para una mayor optimización del tiempo, existe la herramienta escalado múltiple, con la que se ingresan los mismos valores en todas las tallas, se entra en la barra de botones del escalado, una vez seleccionada se hace clic sobre el punto a escalar, se abre un cuadro de diálogo, en el que se ingresa el valor de X y el valor de Y, al dar clic en aplicar se visualiza el escalado del punto. 
 
-    SlyderA.mb-5  
-      .row.justify-content-center
-        .col-10 
-          div.mb-2.BorTit
-            p.mb-0 <b>Figura 122</b>
-            p.mb-0 Escalado múltiple - paso 1.
-          figure
-            img(src='@/assets/curso/tema7/img23.png') 
-      .row.justify-content-center
-        .col-10 
-          div.mb-2.BorTit
-            p.mb-0 <b>Figura 123</b>
-            p.mb-0 Escalado múltiple - paso 2.
-          figure
-            img(src='@/assets/curso/tema7/img24.png') 
-      .row.justify-content-center
-        .col-10 
-          div.mb-2.BorTit
-            p.mb-0 <b>Figura 124</b>
-            p.mb-0 Escalado múltiple - paso 3.
-          figure
-            img(src='@/assets/curso/tema7/img25.png') 
-      .row.justify-content-center
-        .col-10 
-          div.mb-2.BorTit
-            p.mb-0 <b>Figura 125</b>
-            p.mb-0 Escalado múltiple - paso 4.
-          figure
-            img(src='@/assets/curso/tema7/img26.png') 
-    
+      SlyderA.mb-5  
+        .row.justify-content-center
+          .col-10 
+            div.mb-2.BorTit
+              p.mb-0 <b>Figura 122</b>
+              p.mb-0 Escalado múltiple - paso 1.
+            figure
+              img(src='@/assets/curso/tema7/img23.png') 
+        .row.justify-content-center
+          .col-10 
+            div.mb-2.BorTit
+              p.mb-0 <b>Figura 123</b>
+              p.mb-0 Escalado múltiple - paso 2.
+            figure
+              img(src='@/assets/curso/tema7/img24.png') 
+        .row.justify-content-center
+          .col-10 
+            div.mb-2.BorTit
+              p.mb-0 <b>Figura 124</b>
+              p.mb-0 Escalado múltiple - paso 3.
+            figure
+              img(src='@/assets/curso/tema7/img25.png') 
+        .row.justify-content-center
+          .col-10 
+            div.mb-2.BorTit
+              p.mb-0 <b>Figura 125</b>
+              p.mb-0 Escalado múltiple - paso 4.
+            figure
+              img(src='@/assets/curso/tema7/img26.png') 
+      
     .row.justify-content-center.mb-5
       .col-7.py-3.px-5(style="background-color:#EEEAE7")
         p.mb-0 Una vez se tienen todos los puntos de una pieza escalados (incluyendo los puntos internos y vértices de pinzas), se puede copiar y pegar el escalado de un punto al otro, señalando (herramienta selección) el punto con atributos de escalado, haciendo clic en el botón copiar escalado (o usando el atajo <i>Shift</i> + C), luego haciendo clic en punto al cual se le copiará el escalado y finalizando con clic en el botón pegar escalado (<i>Shift</i> + V) (figuras 126 a 130).

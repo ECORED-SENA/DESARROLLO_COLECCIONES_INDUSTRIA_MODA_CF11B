@@ -11,9 +11,9 @@
       .col-4.mb-5
         p.mb-0 Para comprender el patronaje sistematizado y su funcionamiento, se hace necesario comenzar por los conceptos básicos de geometría asociándolos al manejo del <i>software</i> Optittex.
       .col-6.mb-5
-        div.mb-2.BorTit
-          p.mb-0 <b>Figura 23</b>
-          p.mb-0  Patrón geométrico.
+        //- div.mb-2.BorTit
+        //-   p.mb-0 <b>Figura 23</b>
+        //-   p.mb-0  Patrón geométrico.
         figure
            img(src='@/assets/curso/tema2/img01.svg')  
 
