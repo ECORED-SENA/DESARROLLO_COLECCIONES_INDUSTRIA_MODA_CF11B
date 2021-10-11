@@ -50,9 +50,9 @@
           p.mb-0 Optitex.
       .col-lg-1
     .row.justify-content-end
-      .col-lg-6.d-flex.align-items-center.ps-5(style="background-color:#A9EFFF")   
+      .col-lg-6.d-flex.align-items-center.ps-5(style="background-color:#A9EFFF")  
         p.mb-0 Ahora bien, Optitex es un <i>software</i> utilizado en el sector textil - confección -en todos sus campos de acción- para el desarrollo de patronaje, escalado y trazo de prendas de vestir. Funciona a través de CAD, el cual ha digitalizado tareas que antes se hacían de manera manual en la industria de la moda. De igual manera, el programa cuenta con periféricos CAM (por sus siglas en inglés Computer Aided Manufacturing o fabricación asistida por computador) para la sistematización de procesos de manufactura tales como ploteo (impresión), extendido y corte automatizados y semiautomatizados.
-      .col-lg-4.pe-0(style="background-color:#A9EFFF")   
+      .col-lg-4.pe-0
         figure
           img(src='@/assets/curso/introduccion/img03.png') 
       .col-lg-1
