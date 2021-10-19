@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="166" height="168.686" viewBox="0 0 166 168.686">
+  <g id="Grupo_57272" data-name="Grupo 57272" transform="translate(-2162.296 1162.545)">
+    <circle id="Elipse_4457" data-name="Elipse 4457" cx="83" cy="83" r="83" transform="translate(2162.296 -1159.859)" fill="#fff"/>
+    <text id="y" transform="translate(2242.784 -1149.545)" fill="#161615" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">y</tspan></text>
+    <text id="x" transform="translate(2315.417 -1074.082)" fill="#161615" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">x</tspan></text>
+    <g id="Grupo_57272-2" data-name="Grupo 57272" transform="translate(2177.893 -1144.261)">
+      <path id="Trazado_102493" data-name="Trazado 102493" d="M2215.85-1117.595a57.981,57.981,0,0,1,36.21-12.626,58.228,58.228,0,0,1,58.216,57.018l-58.216.175-3.6-4.43Z" transform="translate(-2184.658 1140.431)" fill="#fabf68"/>
+      <line id="Línea_180" data-name="Línea 180" x1="36.211" y1="44.567" transform="translate(31.192 22.836)" fill="none" stroke="#c07830" stroke-miterlimit="10" stroke-width="1.791"/>
+      <line id="Línea_181" data-name="Línea 181" y2="134.806" transform="translate(67.403)" fill="none" stroke="#4e4e4e" stroke-miterlimit="10" stroke-width="1.791"/>
+      <line id="Línea_182" data-name="Línea 182" x1="134.806" transform="translate(0 67.403)" fill="none" stroke="#4e4e4e" stroke-miterlimit="10" stroke-width="1.791"/>
+    </g>
+    <g id="Grupo_57274" data-name="Grupo 57274" transform="translate(2233.101 -1112.884)">
+      <path id="Trazado_102494" data-name="Trazado 102494" d="M2291.166-1070.614a34.579,34.579,0,0,0-34.522-32.6,34.541,34.541,0,0,0-11.066,1.808l-.524-1.557a36.182,36.182,0,0,1,11.59-1.893,36.221,36.221,0,0,1,36.162,34.15Z" transform="translate(-2243.555 1105.849)" fill="#161615"/>
+      <g id="Grupo_57273" data-name="Grupo 57273" transform="translate(0 0)">
+        <path id="Trazado_102495" data-name="Trazado 102495" d="M2247.3-1105.993l-1.726,3.542,3.543,1.724-2.236.771-3.542-1.725,1.725-3.542Z" transform="translate(-2243.338 1105.993)" fill="#161615"/>
+      </g>
+    </g>
+  </g>
+</svg>

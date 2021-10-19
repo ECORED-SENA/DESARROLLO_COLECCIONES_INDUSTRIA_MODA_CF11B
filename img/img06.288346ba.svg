@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="166" height="168.687" viewBox="0 0 166 168.687">
+  <g id="Grupo_57275" data-name="Grupo 57275" transform="translate(-2417.93 1162.545)">
+    <circle id="Elipse_4458" data-name="Elipse 4458" cx="83" cy="83" r="83" transform="translate(2417.93 -1159.859)" fill="#fff"/>
+    <path id="Trazado_102496" data-name="Trazado 102496" d="M2466.977-1030.006a57.055,57.055,0,0,1-19.508-43.022,57.193,57.193,0,0,1,57.192-57.193,57.193,57.193,0,0,1,57.193,57.193h-57.193Z" transform="translate(-3.731 -3.83)" fill="#fabf68"/>
+    <text id="y" transform="translate(2498.418 -1149.545)" fill="#161615" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">y</tspan></text>
+    <text id="x" transform="translate(2571.052 -1074.082)" fill="#161615" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">x</tspan></text>
+    <path id="Trazado_102497" data-name="Trazado 102497" d="M2480.4-1007.943" transform="translate(-7.89 -19.276)" fill="none" stroke="#fff19b" stroke-miterlimit="10" stroke-width="1.1"/>
+    <line id="Línea_183" data-name="Línea 183" x1="37.685" y2="43.022" transform="translate(2463.245 -1076.859)" fill="none" stroke="#c07830" stroke-miterlimit="10" stroke-width="1.791"/>
+    <line id="Línea_184" data-name="Línea 184" y2="134.806" transform="translate(2500.93 -1144.261)" fill="none" stroke="#4e4e4e" stroke-miterlimit="10" stroke-width="1.791"/>
+    <line id="Línea_185" data-name="Línea 185" x1="134.806" transform="translate(2433.527 -1076.859)" fill="none" stroke="#4e4e4e" stroke-miterlimit="10" stroke-width="1.791"/>
+    <g id="Grupo_57276" data-name="Grupo 57276" transform="translate(2483.641 -1076.858)">
+      <path id="Trazado_102498" data-name="Trazado 102498" d="M2540.97-1064.759a34.58,34.58,0,0,1-34.522,32.6,34.544,34.544,0,0,1-11.066-1.808l-.524,1.556a36.157,36.157,0,0,0,11.59,1.894,36.222,36.222,0,0,0,36.162-34.15Z" transform="translate(-2493.359 1064.759)" fill="#161615"/>
+      <g id="Grupo_57275-2" data-name="Grupo 57275" transform="translate(0 29.198)">
+        <path id="Trazado_102499" data-name="Trazado 102499" d="M2497.1-1025.3l-1.726-3.542,3.543-1.724-2.236-.771-3.542,1.725,1.725,3.542Z" transform="translate(-2493.142 1031.34)" fill="#161615"/>
+      </g>
+    </g>
+  </g>
+</svg>

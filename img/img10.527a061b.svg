@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="295" height="249.073" viewBox="0 0 295 249.073">
+  <g id="Grupo_57358" data-name="Grupo 57358" transform="translate(-915 -3438)">
+    <g id="Grupo_57357" data-name="Grupo 57357" transform="translate(2701.274 4146.921)">
+      <g id="Grupo_57354" data-name="Grupo 57354">
+        <rect id="Rectángulo_6535" data-name="Rectángulo 6535" width="182.146" height="3" transform="translate(-1741.63 -581.921)" fill="#ad2564"/>
+        <g id="Grupo_57353" data-name="Grupo 57353">
+          <path id="Trazado_102674" data-name="Trazado 102674" d="M-1565.46-585.507l5.089,5.086-5.089,5.086h4.319l5.086-5.086-5.086-5.086Z" fill="#ad2564"/>
+        </g>
+      </g>
+      <text id="Y_" data-name="Y(+)" transform="translate(-1646.262 -684.921)" fill="#339ce9" font-size="22.735" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-21.231" y="0">Y(+)</tspan></text>
+      <text id="X_" data-name="X (+)" transform="translate(-1527.177 -573.911)" fill="#339ce9" font-size="22.735" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-24.328" y="0">X (+)</tspan></text>
+      <text id="_" data-name="(+)" transform="translate(-1760.275 -573.911)" fill="#339ce9" font-size="22.735" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-14.304" y="0">(+)</tspan></text>
+      <text id="_-_" data-name="(-)" transform="translate(-1648.842 -465.848)" fill="#339ce9" font-size="22.735" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-11.701" y="0">(-)</tspan></text>
+      <g id="Grupo_57356" data-name="Grupo 57356">
+        <rect id="Rectángulo_6536" data-name="Rectángulo 6536" width="3" height="182.146" transform="translate(-1650.342 -669.779)" fill="#ad2564"/>
+        <g id="Grupo_57355" data-name="Grupo 57355">
+          <path id="Trazado_102675" data-name="Trazado 102675" d="M-1653.928-663.8l5.086-5.089,5.086,5.089v-4.318l-5.086-5.086-5.086,5.086Z" fill="#ad2564"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectángulo_6537" data-name="Rectángulo 6537" width="295" height="247" transform="translate(915 3440)" fill="none"/>
+  </g>
+</svg>
