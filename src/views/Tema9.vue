@@ -150,7 +150,7 @@
                   p.mb-0 <b>Figura 154</b>
                   p.mb-0 Propiedades de piquete - paso 1.
                 figure
-                  img(src='@/assets/curso/tema9/img15.png') 
+                  img(src='@/assets/curso/tema9/img39a.svg') 
             .row.justify-content-center
               .col-10 
                 div.mb-2.BorTit
